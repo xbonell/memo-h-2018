@@ -1,0 +1,18 @@
+
+//
+// Module Elementor countert title
+// ----------------------------------------------------------------------------
+
+.elementor-counter-title,.elementor-counter-number-wrapper{
+  float:left;
+}
+
+.elementor-counter-title span {
+  color: black;
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: normal;
+  position: absolute;
+  top: 80px !important;  
+  left: 0px;
+}
