@@ -5,7 +5,9 @@
 
   display: flex;
   flex-direction: column;
-  padding-top: rem(50);
+  max-width: rem(420);
+  padding: rem(50);
+  margin: 0 auto;
   background-color: white;
   font-family: $main-font;
   text-align: center;
@@ -27,7 +29,7 @@
     span:first-child {
       color: $brand-primary;
       font-size: rem(180);
-      line-height: 1;
+      line-height: .8;
     }
 
     span:last-child {
