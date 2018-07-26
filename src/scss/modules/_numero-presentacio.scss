@@ -21,9 +21,11 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    font-weight: 700;  
+    font-weight: 700;
+    color: $black;  
 
     span:first-child {
+      color: $brand-primary;
       font-size: rem(180);
       line-height: 1;
     }
@@ -36,6 +38,9 @@
   }
 
   p {
+
+    color: $black;
+    font-weight: 700;
 
     a {
 
