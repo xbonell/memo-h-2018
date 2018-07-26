@@ -1,0 +1,38 @@
+#giny_header_logo_report {
+
+  position: fixed;
+  top: 0;
+  left: rem(130);
+  right: rem(30);
+
+  .elementor-widget-container {
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: rem(14);
+  
+    &:before {
+      content: "";
+      display: block;
+      height: 1px;
+      background: rgba(#979797,.2);
+    }
+  
+  }
+
+
+  h3 {
+    margin-right: rem(40);
+  }
+
+  img {
+    margin-left: rem(40);
+  }
+
+}
+
+#giny_header_logo_report + #giny_header_logo_report {
+  display: none;
+}
