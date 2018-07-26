@@ -6,4 +6,17 @@
   color: white;
   background-color: $black;
 
+  .numero_presentacio {
+
+    background-color: transparent;
+
+    &,
+    h2,
+    p,
+    p a {
+      color: white;
+    }
+
+  }
+
 }
