@@ -14,12 +14,16 @@ $giny-header-width: 60;
   .elementor-widget-container {
     position: absolute;
     bottom: rem($giny-header-width);
+    left: 50%;
+    margin-left: rem(-15);
     transform: rotate(-90deg);
   }
 
   h2 {
 
     margin: 0;
+    font-size: rem(19);
+    line-height: 1.578947368;
     white-space: nowrap;
 
     span {
