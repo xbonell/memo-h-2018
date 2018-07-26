@@ -1,23 +1,26 @@
+$giny-header-width: 60;
+
 .giny_header_black_column{
   
   position:absolute;
-  width: rem(60);
-  left: rem(-9);
+  top: rem($gutter/-2);
+  left: rem($gutter/-2);
+  width: rem($giny-header-width);
   height: 100vh;
-  top: rem(-10);
   background-color: black;
   color: white;
   font-family: $main-font;
-
   
+  .elemenentor-widget-container {
+    position: absolute;
+    bottom: rem($giny-header-width);
+    transform: rotate(-90deg);
+  }
+
   h2 {
 
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 10%;
-    display: inline-block;
+    margin: 0;
     white-space: nowrap;
-    left: rem(-40);
 
     span {
       color: $brand-primary;
