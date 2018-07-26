@@ -1,0 +1,55 @@
+//
+// Número presentació
+// ----------------------------------------------------------------------------
+.numero_presentacio {
+
+  display: flex;
+  flex-direction: column;
+  padding-top: rem(50);
+  background-color: white;
+  font-family: $main-font;
+  text-align: center;
+  box-shadow: -1px -1px rem(40) rem(6) rgba($black,.4);
+
+  h2 + p,
+  p + p {
+    margin: rem(34) auto 0;   
+  }
+
+  h2 {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-weight: 700;  
+
+    span:first-child {
+      font-size: rem(180);
+      line-height: 1;
+    }
+
+    span:last-child {
+      font-size: rem(33);
+      line-height: 1.363636364;
+    }
+
+  }
+
+  p {
+
+    a {
+
+      color: $black;
+      font-weight: 700;
+      text-decoration: underline;
+      transition: all $animation-fade;
+
+      &:hover {
+        color: $brand-primary;
+      }
+    
+    }
+
+  }
+
+}
