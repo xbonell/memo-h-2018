@@ -1,0 +1,28 @@
+.giny_header_black_column{
+  
+  position:absolute;
+  width: rem(60);
+  left: rem(-9);
+  height: 100vh;
+  top: rem(-10);
+  background-color: black;
+  color: white;
+  font-family: $main-font;
+
+  
+  h2 {
+
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 10%;
+    display: inline-block;
+    white-space: nowrap;
+    left: rem(-40);
+
+    span {
+      color: $brand-primary;
+    }
+
+  }
+
+}
