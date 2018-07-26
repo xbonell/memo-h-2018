@@ -14,6 +14,11 @@ $giny-header-width: 60;
   color: white;
   font-family: $main-font;
   
+  &.elementor-widget,
+  &.elementor-widget:not(:last-child) {
+    margin: 0;
+  }
+
   .elementor-widget-container {
     position: absolute;
     bottom: rem($giny-header-width);

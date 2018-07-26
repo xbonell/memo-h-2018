@@ -1,11 +1,25 @@
 //
 // Layout
 // ----------------------------------------------------------------------------
+
+// Hide unwanted layout elements
+// ----------------------------------------------------------------------------
 [role="main"] {
 
   > .page-header,
   > .site-footer {
     display: none;
+  }
+
+}
+
+// Force section rows to 100% viewport height
+// ----------------------------------------------------------------------------
+.elementor-section-wrap {
+
+  > section {
+    height: 100vh;
+    overflow: hidden;
   }
 
 }
