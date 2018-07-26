@@ -3,6 +3,10 @@
 // Module Elementor countert title
 // ----------------------------------------------------------------------------
 
+.primer_contador {
+  .elementor-counter-number{margin-right:3px}
+}
+
 .elementor-counter-title,.elementor-counter-number-wrapper{
   float:left;
 }
