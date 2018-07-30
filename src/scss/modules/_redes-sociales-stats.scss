@@ -1,0 +1,33 @@
+//
+// Redes Sociales / Stats
+// ----------------------------------------------------------------------------
+.redes-sociales__stats {
+
+  max-width: rem(400);
+  margin: 0 auto;
+
+  .elementor-widget:not(:last-child) {
+    margin: 0;
+  }
+
+  .elementor-widget-icon.elementor-view-framed .elementor-icon,
+  .elementor-widget-icon.elementor-view-default .elementor-icon {
+    color: white;
+    border-color: transparent;
+    font-size: rem(32);
+  }
+
+  .textwidget {
+
+    p {
+      margin: 0;
+      color: $brand-primary;
+      font-family: $main-font;
+      font-size: rem(23);
+      line-height: 1;
+      text-align: center;
+    }
+
+  }
+
+}
