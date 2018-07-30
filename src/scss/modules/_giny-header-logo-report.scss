@@ -18,17 +18,23 @@
       display: block;
       height: 1px;
       background: rgba(#979797,.2);
+      order: 1;
     }
-  
-  }
 
+    h3 {
+      order: 0;
+      margin: 0 rem(40) 0 0;
+      font-family: $main-font;
+      font-weight: 700;
+      font-size: rem(14);
+      line-height: 0;
+    }
 
-  h3 {
-    margin-right: rem(40);
-  }
-
-  img {
-    margin-left: rem(40);
+    img {
+      order: 2;
+      margin: 0 0 0 rem(40);
+    }
+    
   }
 
 }
