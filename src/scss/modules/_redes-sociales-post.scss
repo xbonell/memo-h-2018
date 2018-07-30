@@ -10,6 +10,7 @@
     position: relative;
     margin: rem(-10);
     overflow: hidden;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   
@@ -44,6 +45,7 @@
       font-size: rem(16);
       line-height: 1.1;
       text-decoration: none;
+      text-shadow: 0 rem(1) rem(4) rgba(black,.6);
     }
 
     .fa {
