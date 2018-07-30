@@ -6,7 +6,7 @@ $giny-header-width: 70;
 .giny_header_black_column{
   
   position:absolute;
-  top: rem($gutter/-2);
+  top: 50%;
   left: rem($gutter/-2);
   width: rem($giny-header-width);
   height: 100vh;
@@ -16,7 +16,7 @@ $giny-header-width: 70;
   
   &.elementor-widget,
   &.elementor-widget:not(:last-child) {
-    margin: 0;
+    margin: -50vh 0 0;
   }
 
   .elementor-widget-container {
