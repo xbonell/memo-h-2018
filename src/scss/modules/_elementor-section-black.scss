@@ -11,7 +11,7 @@
     background-color: transparent;
 
     > .elementor-widget-container {
-      background-color: transparent;
+      background-color: transparent !important; // Override elementor inline styles
     }
 
     &,
