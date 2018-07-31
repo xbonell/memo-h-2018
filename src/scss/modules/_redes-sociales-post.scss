@@ -1,5 +1,5 @@
 .redes-sociales__posts {
-  max-width: 40vh;
+  max-width: 35vh;
   margin: auto;
 }
 
@@ -39,6 +39,7 @@
     }
 
     a {
+
       position: absolute;
       top: 0;
       right: 0;
@@ -50,18 +51,31 @@
       padding: rem(20);
       color: white;
       font-weight: 700;
-      font-size: rem(16);
+      font-size: 0;
       line-height: 1.1;
       text-decoration: none;
       text-shadow: 0 rem(1) rem(4) rgba(black,.6);
+    
+      @include bp(md) {
+        font-size: rem(16);
+      }
+      
     }
 
     .fa {
+
       position: absolute;
-      top: rem(20);
-      left: rem(20);
-      font-size: rem(32);
+      top: rem(10);
+      left: rem(10);
+      font-size: rem(16);
       color: white;
+    
+      @include bp(md) {
+        top: rem(20);
+        left: rem(20);
+        font-size: rem(32);
+      }
+          
     }
 
   }
