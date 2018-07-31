@@ -1,6 +1,13 @@
+//
+// Posts redes sociales
+// ----------------------------------------------------------------------------
 .redes-sociales__posts {
-  max-width: 35vh;
-  margin: auto;
+
+  @include bp(sm) {
+    max-width: 35vh;
+    margin: auto;
+  }
+
 }
 
 .redes-sociales__post {
@@ -75,7 +82,7 @@
         left: rem(20);
         font-size: rem(32);
       }
-          
+
     }
 
   }
