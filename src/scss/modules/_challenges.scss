@@ -1,5 +1,59 @@
 .challenges__box {
 
+  .elementor-widget-wrap {
+    position: relative;
+    z-index: z(default);
+    max-width: rem(230);
+    margin: 0 auto;
+  }
+
+  .elementor-widget-heading {
+
+    position: absolute;
+    top: 55%;
+    left: rem($gutter);
+    z-index: z(over);
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  
+    .elementor-heading-title {
+      font-family: $main-font;
+      font-weight: 700;
+      font-size: rem(34);
+      line-height: 1;
+      white-space: nowrap;
+    }
+  
+  }
+
+  .elementor-widget-modal {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    .elementor-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: rem(42);
+      height: rem(42);
+      padding: 0;
+      border-radius: 50%;
+    }
+  
+    .elementor-button-icon {
+      margin: 0 !important;
+    }
+
+    .elementor-button-text {
+      display: none;
+    }
+    
+  }
+
   .elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
     color: inherit;
   }
@@ -19,7 +73,7 @@
     color: $orange;
 
     .elementor-button {
-      background-color: $green;
+      background-color: $orange;
     }    
 
   }
