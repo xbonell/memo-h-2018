@@ -1,0 +1,47 @@
+.challenges__box {
+
+  .elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
+    color: inherit;
+  }
+
+  &--green {
+
+    color: $green;
+  
+    .elementor-button {
+      background-color: $green;
+    }
+  
+  }
+
+  &--orange {
+
+    color: $orange;
+
+    .elementor-button {
+      background-color: $green;
+    }    
+
+  }
+
+  &--magenta {
+
+    color: $magenta;
+
+    .elementor-button {
+      background-color: $magenta;
+    }
+
+  }
+
+  &--blue {
+
+    color: $blue;
+  
+    .elementor-button {
+      background-color: $blue;
+    }    
+  
+  }
+
+}
