@@ -13,14 +13,22 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 1;
   
     &:before {
       content: "";
       display: block;
       padding-top: 100%;
+      background: transparent;
+      transition: all $animation-fade;    
     }
-  
+
+    &:hover:before {
+      background: rgba(black,.25);
+    }
+
   }    
+
 
   .textwidget {
 
@@ -52,7 +60,7 @@
       position: absolute;
       top: rem(20);
       left: rem(20);
-      font-size: rem(20);
+      font-size: rem(32);
       color: white;
     }
 

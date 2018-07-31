@@ -25,3 +25,9 @@
   }
   @return $pixels / $context * 1rem;
 }
+
+// Return z-index layer
+// ----------------------------------------------------------------------------
+@function z($layer) {
+  @return map-get($z-layers, $layer);
+}

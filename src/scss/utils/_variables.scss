@@ -18,6 +18,27 @@ $browser-context: 16;
 // ----------------------------------------------------------------------------
 $gutter: 20;
 
+// Responsive breakpoints
+$screen-sm: 640;
+$screen-md: 960;
+$screen-lg: 1200;
+$screen-xl: 1600;
+$screen-xs-max: $screen-sm - 1;
+$screen-sm-max: $screen-md - 1;
+$screen-md-max: $screen-lg - 1;
+$screen-lg-max: $screen-xl - 1;
+
+// Layers index map
+$z-layers: (
+  "top":      9001,
+  "high":     8001,
+  "over":     7001,
+  "default":  1,
+  "below":   -1,
+  "bottom":  -9999
+);
+
 // Transitions
 // ----------------------------------------------------------------------------
 $animation-fade: .2s linear;
+
